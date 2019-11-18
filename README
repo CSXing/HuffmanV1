@@ -1,0 +1,12 @@
+我在网络上搜索了很多Huffman的实现原理，发现代码和结果并不理想，然后我自己整理了一份完整。
+Huffman压缩是一种：无损压缩，利用二叉树分组排序，出现次数最多的字符使用最短的二进制记录。
+
+
+调用方法：压缩
+[mw_shl_code=cpp,true] CHuffman HM;
+    HM.Encrypt(frPath, toPath);[/mw_shl_code]
+
+
+调用方法：解压
+[mw_shl_code=cpp,true]    CHuffman HM;
+    HM.Decrypt(frPath, toPath);[/mw_shl_code]
